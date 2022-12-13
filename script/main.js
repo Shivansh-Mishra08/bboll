@@ -102,13 +102,13 @@ const animationTimeline = () => {
       scale: 0.2,
       opacity: 0
     })
-    .from(".fake-btn", 0.9, {
+    .from(".fake-btn", 1.2, {
       scale: 0.2,
       opacity: 0
     })
     .staggerTo(
       ".hbd-chatbox span",
-      1.2,
+      1.3,
       {
         visibility: "visible"
       },
@@ -197,7 +197,7 @@ const animationTimeline = () => {
     )
     .staggerFromTo(
       ".baloons img",
-      2.5,
+      1,
       {
         opacity: 0.9,
         y: 1400
@@ -228,7 +228,7 @@ const animationTimeline = () => {
     })
     .staggerFrom(
       ".wish-hbd span",
-      0.7,
+      0.5,
       {
         opacity: 0,
         y: -50,
@@ -241,7 +241,7 @@ const animationTimeline = () => {
     )
     .staggerFromTo(
       ".wish-hbd span",
-      0.7,
+      1.5,
       {
         scale: 1.4,
         rotationY: 150
@@ -277,7 +277,7 @@ const animationTimeline = () => {
       },
       0.3
     )
-    .to(".six", 0.5, {
+    .to(".six", 1, {
       opacity: 0,
       y: 30,
       zIndex: "-1"
